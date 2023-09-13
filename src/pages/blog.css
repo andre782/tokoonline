@@ -1,0 +1,15 @@
+.banner-containerb{
+    background: url(../images/banner//b19.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: -45px;
+    margin-bottom: 50px;
+}
+.banner-containerb {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-bottom: 35vh;
+  }

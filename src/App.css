@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+  --primary: #00A97F;
+  --light: rgba(133,198,218,255);
+  --dark:rgba(13,13,10,255);
+  --darker:rgba(234,157,90,255);
+  --lighter: #cbd6cf;
+  --lighter1: #C3dacc86;
+  --lighter2: #c4f0e9da;
+  --darken: #cca27e;
+  --color: orangered;
+  --search: #FF6000;
+  --primary1: #2b3d4c;
+  --primar2: #354d61;
+}
+
+
+/* nvbar */
+/* Header.css */
+.green-text {
+  color: white;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+h1{
+  font-weight: 600;
+  color: var(--search);
+  font-size: 40px;
+  margin: 10px;
+}
+h2{
+  font-weight: 400;
+  color: var(--primary1);
+  font: 32px;
+  margin: 10px;
+}
+p{
+  font-size: 14px;
+  margin: auto;
+  margin: 10px;
+}
+span{
+  margin: 10px;
+}
+.button-link{
+  margin: 10px;
+}
+
+.active{
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: underline;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+a{
+  text-decoration: none;
+  font-size: 14px;
+}
+p{
+  font-size: 14px;
+}
+.backgrund{
+  background: var(--lighter2);
+}
+/* header start */
+
+.input-group button{
+  background: transparent;
+  font-size: 14px;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+}
+/* navbar eend */
+
+/* Stylize the search input and button */
+
+.searh-produk{
+  height: 35px;
+  margin-top: 10px;
+}
+
+
+.cari-produk{
+  background-color: var(--lighter1);
+}
+
+.button{
+  padding: 12px 10px;
+  font-size: 14px;
+  background: var(--primary1);
+  color: white;
+}
+.button-link{
+    margin-top: 15px;
+    padding: 12px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    background: var(--primary);
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+.button-link:hover{
+  background: transparent;
+  color: var(--primary1);
+  border: 1px solid var(--primary);
+}
+.link-item {
+  font-size: 15px;
+  margin-right: 5px;
+  padding: 20px 40px;
+  color: black;
+}
+.link-item:hover{
+  color: blue;
+}
+.input-group input:focus{
+  outline: var(--lighter2);
+}
+.icon {
+  font-size: 2rem;
+  margin: 10px;
+}
+.icon:Hover{
+  color: red;
+}
+
+.posisi {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #CBD6CF;
+  z-index: 1;
+  /* ... properti lainnya ... */
+}
+.shop{
+  z-index: 1;
+}
+/* header end */
+.image{
+  background: black;
+}
+.input-group-text:hover{
+  color: #FF6000;
+}
+
+/* footer */
+.footer{
+  margin-top: 30px;
+}
+.footer-details{
+  margin-bottom: 25px;
+}
+.font{
+  font-size: 25px;
+}
+.font:hover{
+  color: red;
+}
+.copyrught{
+  /* margin-top: 50px; */
+  color: gray;
+}
+.mb-3{
+  color: black;
+}
+.hover img {
+  transition: 0.5s ease;
+}
+.hover img:hover{
+  transition: translateY(-10px);
+}
+.margin{
+  margin-top: 20px;
+}
+.pay{
+  margin-top: 10px;
+}
+.alamt{
+  font-size: 1px;
+}
+/* footer end */
+
+/* sesi banner */
+
+/* feedback */
+.cardt{
+  border: 1px solid gray;
+  padding: 20px;
+}
+
+.setting-button{
+  width: 40%;
+  height: 50px;
+  border-radius: 11px;
+  margin-top: 10px;
+  background: transparent;
+}
+.setting-button:hover{
+  border: 1px solid orange;
+  color: orange;
+}

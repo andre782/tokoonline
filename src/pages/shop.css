@@ -1,0 +1,116 @@
+.banner-container {
+    background: url(../images//banner//b1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: -45px;
+  
+}
+
+.banner-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-bottom: 35vh;
+  }
+  
+  .banner-font {
+    position: absolute;
+    top: 50%; /* Adjust this value to control the vertical position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .banner-font p {
+    font-size: 1.5rem;
+    margin: 10px 0; /* Adjust the margin as needed */
+  }
+  .ijo{
+    color: green;
+  }
+  .offon{
+    font-size: 100px;
+  }
+  /* card */
+  .custom-cardi{
+    width: 80%;
+    height: 93%;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 40px;
+  }
+  .card-body{
+    margin-top: -40px;
+  }
+
+  
+.custom-cardi {
+  transition: box-shadow 0.3s; /* Efek transisi pada box-shadow */
+}
+
+.custom-cardi:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Bayangan yang muncul ketika dihover */
+}
+
+  .img{
+    padding: 18px;
+  }
+  .tombol-diskons{
+    width: 80%;
+    height: 70px;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-align: center;
+    background: #354D61;
+    border: 1px solid #354D61;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .star-nominal{
+    margin-right: 10px;
+    margin-top: -10px;
+    color: yellowgreen;
+  }
+  view{
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+}
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  /* shop.css */
+
+.star {
+  margin-bottom: 5px; /* Mengatur jarak bawah */
+}
+
+.star .react-stars-svg {
+  width: 50px; /* Mengatur lebar bintang */
+  height: 30px; /* Mengatur tinggi bintang */
+  margin-right: 5px; /* Mengatur jarak antar bintang */
+}
+.centered-content{
+  margin-top: 15px;
+}
+
+
+  /* shop.css */
+
+
+
+  /* card end */
+
+  .halaman{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }

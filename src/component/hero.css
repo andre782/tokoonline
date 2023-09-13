@@ -1,0 +1,35 @@
+  /*card hero  */
+  .card{
+    width: 9rem;
+    margin-bottom: 25px;
+    
+  }
+  .d-flex.justify-content-center {
+    gap: 25px;
+    display: flex;
+    justify-content: center; /* Mengatur konten menjadi di tengah */
+  }
+  .card-textb{
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  /* shop.css */
+
+.small-icon {
+  max-width: 80px; /* Atur lebar maksimum ikon */
+  max-height: 80px; /* Atur tinggi maksimum ikon */
+}
+
+  .card-textz{
+    margin-top: 50px;
+  }
+  .card-bodyx{
+    margin-top: 15px;
+    margin-left: 30px;
+  }
+  .btns{
+    margin-top: 30px;
+  }
+  .card-textz{
+    font-size: 15px;
+  }
